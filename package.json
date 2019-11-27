@@ -1,0 +1,19 @@
+{
+  "name": "screenshot-with-headless-chrome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "capture": "node ./screenshot.js",
+    "headless": "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --headless --disable-gpu --remote-debugging-port=9222 https://www.chromestatus.com"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-remote-interface": "^0.28.0",
+    "puppeteer": "^2.0.0",
+    "puppeteer-core": "^2.0.0"
+  }
+}
